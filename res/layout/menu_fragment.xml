@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:clipChildren="false"
+    android:clipToPadding="false" >
+
+    <RelativeLayout
+        android:id="@+id/multi_buttons_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <ImageButton
+            android:id="@+id/btn_one"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:src="@drawable/one"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btn_two"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:src="@drawable/two"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btn_three"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:src="@drawable/three"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btn_four"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:clickable="true"
+            android:src="@drawable/four"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btn_five"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:src="@drawable/five"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_button_wrapper"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_main_button"
+        android:clickable="true" >
+
+        <ImageButton
+            android:id="@+id/btn_main"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_main"
+            android:clickable="false" />
+    </RelativeLayout>
+
+</RelativeLayout>
