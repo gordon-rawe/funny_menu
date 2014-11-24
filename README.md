@@ -9,7 +9,7 @@ The final effects are as follows:
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/2.png)
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/3.png)
 
-But this is just some static pictures, in fact the plus button can dock to the edges according to which side it is closer to, fixed some bugs such as becoming flat when dock exceed the right side.
+But these are just some static pictures, in fact the plus button can dock to the edges according to which side it is closer to, fixed some bugs such as becoming flat when dock exceed the right side.
 
 And using it is quite easy, you just include the project files include:
 ```Java
@@ -18,7 +18,7 @@ Java files:
   +MeFragment.java
   +AnimationHelper.java
 xml files:
-  +menu_activity.xml
+  +menu_fragment.xml
 png files:
   +one.png
   +two.png
@@ -27,7 +27,7 @@ png files:
   +five.png
   +btn_main.png
 ```
-After put these files in the right places and using it as a fragment states in a activity layout file, such as:
+After putting these files in the right places, use it as a fragment stating in a activity layout file, such as:
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
