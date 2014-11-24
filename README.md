@@ -11,6 +11,7 @@ The final effects are as follows:
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/3.png)
 
 And using it is quite easy, you just include the project files include:
+```Java
 Java files:
   +PositionHelper.java
   +MeFragment.java
@@ -24,6 +25,7 @@ png files:
   +four.png
   +five.png
   +btn_main.png
+```
 After put these files in the right places and using it as a fragment states in a activity layout file, such as:
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
