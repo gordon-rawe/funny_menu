@@ -8,7 +8,8 @@ The final effects are as follows:
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/1.png)
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/2.png)
 ![image](https://github.com/gordon-rawe/funny_menu/raw/master/3.png)
-![image](https://github.com/gordon-rawe/funny_menu/raw/master/3.png)
+
+But this is just some static pictures, in fact the plus button can dock to the edges according to which side it is closer to, fixed some bugs such as becoming flat when dock exceed the right side.
 
 And using it is quite easy, you just include the project files include:
 ```Java
